@@ -56,5 +56,5 @@ output/*/index.html
 docs/_build
 
 #Virtual Environment 
-flask_dev_env/*
+machine_learning_env/*
 
