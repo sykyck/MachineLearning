@@ -45,7 +45,8 @@ X = np.array(X, dtype=float)
 X = np.append(arr=np.ones((X.shape[0], 1)).astype(float), values=X, axis=1)
 
 # Choose subset of variables if needed
-#x_opt = X[:, [2, 3, 4, 5]]  # Instead of doing this we are making it dynamic by calling backward_elimination
+# x_opt = X[:, [2, 3, 4, 5]]  
+# Instead of doing this we are making it dynamic by calling backward_elimination
 x_opt = backward_elimination(X, y)
 
 # Splitting the dataset into training and test sets  
