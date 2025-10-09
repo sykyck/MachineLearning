@@ -20,6 +20,10 @@ Sources are in the `/docs` folder.
 
 FIXME: publish to GitHub Pages.
 
+## IDE 
+
+For Visual Code Install extension Pylance for Python IntelliSense experience
+
 ## License
 
 MIT
