@@ -18,15 +18,11 @@ Commands -
 - machine_learning_env\Scripts\activate (Activates the virtual Environment)
 - uv pip compile requirements.in -o requirements.txt (generates requirements.txt )
 - uv pip install -r requirements.txt (Install from the compiled file)
-When to recompile
-
-Re-run compile when:
-
-You add/remove a dependency
-
-You want to upgrade versions
-
-uv pip compile requirements.in -o requirements.txt --upgrade
+- When to recompile
+  - Re-run compile when:
+  - You add/remove a dependency
+  - You want to upgrade versions
+- uv pip compile requirements.in -o requirements.txt --upgrade
 ## Full Documentation
 
 Run `make docs` and browse to [http://localhost:5500](http://localhost:5500)
