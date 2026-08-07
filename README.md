@@ -23,6 +23,19 @@ Commands -
   - You add/remove a dependency
   - You want to upgrade versions
 - uv pip compile requirements.in -o requirements.txt --upgrade
+
+## Using pyenv
+  - 1.Install pyenv which manages python different version
+  - Use powershell script
+  - Invoke-WebRequest -UseBasicParsing -Uri "https://raw.githubusercontent.com/pyenv-win/pyenv-win/master/pyenv-win/install-pyenv-win.ps1" -OutFile "./install-pyenv-win.ps1"; &"./install-pyenv-win.ps1"
+  - 2. Install python version
+   - pyenv install 3.11.7
+  - 2.1 set version for local project
+    - pyenv local 3.11.7
+  - 2.2 set virtual environment named mlenv using python command
+    - python -m venv mlenv 
+  - 2.3 Activate Virtual environment using command
+    - mlenv\Scripts\activate
 ## Full Documentation
 
 Run `make docs` and browse to [http://localhost:5500](http://localhost:5500)
